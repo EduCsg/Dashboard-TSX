@@ -16,4 +16,7 @@ export const Grid = styled.div`
 		"AS CT";
 
 	height: 100vh;
+
+	background-color: ${(props) => props.theme.colors.secondary};
+	color: ${(props) => props.theme.colors.white};
 `;
